@@ -15,7 +15,12 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/google.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "permissions": [
+        "android.permission.CAMERA",
+        "android.permission.RECORD_AUDIO"
+      ],
+      "package": "com.asifkhan0410.Shoppin"
     },
     "web": {
       "bundler": "metro",
@@ -44,6 +49,14 @@
     ],
     "experiments": {
       "typedRoutes": true
+    },
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "e7b69ce7-532a-4e6c-8c1e-bf0f3b361398"
+      }
     }
   }
 }
